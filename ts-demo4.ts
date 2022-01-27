@@ -19,3 +19,4 @@ const objectArr: Teacher[] = [
 ]
 
 //元组 tuple
+const teacherInfo: [string, string, number] = ['dell', 'main', 18]
