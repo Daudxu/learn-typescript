@@ -270,3 +270,74 @@
 // console.log(demo2.name)
 
 // ===========================================================
+// 抽象类
+
+// abstract class Geom{
+//    width: number;
+//    getType() {
+//       return  a
+//    }
+// }
+
+// class Circle {
+//     getArea() {
+
+//     }
+// }
+
+// class Square {
+
+// }
+
+// class saasa {
+
+// }
+
+
+
+// class Person {
+//     public readonly name: string;
+//     constructor(name: string) {
+//       this.name = name
+//     }
+// }
+
+
+// const person = new Person('Dell');
+// // person.name = "hello";
+// console.log(person.name)
+
+// abstract class Geom {
+//    width: number;
+//    getType() {
+//       return "Gemo"
+//    }
+//    abstract getArea():number
+// }
+
+// class Circle extends Geom {
+//     getArea() {
+//        return 123;
+//     }
+// }
+
+// interface Person {
+//     name: string
+// }
+
+
+// interface Teachera extends Person {
+//    teachingAge: number
+// }
+
+// const teachers = {
+//    name: "lee",
+//    teachingAge: 3
+// }
+
+// const getUserInfo = (user: Teachera) => {
+//    console.log(user.name)
+// }
+
+// getUserInfo(teachers)
+
